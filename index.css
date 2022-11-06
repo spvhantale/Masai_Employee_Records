@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+    color: #2962A0;
+}
+
+div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,auto);
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    
+    width:100%;
+    /* padding: 20px; */
+    /* line-height: 25px; */
+}
+h1+div>form{
+    font-size: 20px;
+    width: 70%;
+    margin-top: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+}
+h1+div>form>input{
+    width:86%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+h1+div>form>select{
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+input:last-child{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #2962A0;
+    padding: 8px;
+}
+table{
+    width: 50%;
+}
+table>thead{
+    background-color: #2962A0;
+    color: white;
+    border: 1px solid white;
+    /* padding: 10px; */
+}
+table>thead>tr>th{
+    border: 1px solid white;
+    padding: 10px;
+}
+table>tbody>tr>td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
